@@ -36,7 +36,7 @@
   padding: 15px;
   color: black; 
   font-size: 20px;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .container1{
@@ -83,6 +83,7 @@
   margin: 10px auto;
   columns: 4;
   column-gap: 10px;
+  padding-right: 10px;
 }
 .container .box
 {
@@ -138,7 +139,7 @@
     }
     .container1 .Sea input
     {
-      width: 200px;
+      width: 150px;
     }
 } 
 
@@ -151,5 +152,9 @@
     .container1 .Sea input
     {
       width: 50px;
+    }
+    .container1 .Sea .fa-solid
+    {
+      overflow: hidden;
     }
 }
